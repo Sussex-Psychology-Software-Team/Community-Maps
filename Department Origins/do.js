@@ -50,7 +50,8 @@ function overpassTurboQuery(latLng){
         console.log("Administrative boundaries data:", data);
         for(let d=0; d<data.elements.length; d++){
             const tags = data.elements[d].tags
-            console.log(tags.int_name ? tags.int_name : 'name:en' in tags ? tags['name:en'] : tags.name)
+            if(!tags) return
+            console.log('int_name' in tags ? tags.int_name : 'name:en' in tags ? tags['name:en'] : tags.name)
         }
     })
     .catch(error => {
