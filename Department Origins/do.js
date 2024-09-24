@@ -31,7 +31,7 @@ map.on('click', onMapClick);
 
 // Boundaries
 var boundariesLayer = null; // Placeholder for the dynamically fetched boundaries layer
-let currentAdminLevel = '2'
+let currentAdminLevel = 1
 
 // Function to build Overpass API query based on map bounds and zoom level
 function buildOverpassQuery(bounds, zoom) {
@@ -40,23 +40,23 @@ function buildOverpassQuery(bounds, zoom) {
     // Admin levels: 2 = country, 4 = state/province
     let adminLevels;
     if (zoom <= 5) {
-        adminLevels = "2"; // Country boundaries for low zoom levels
-    } else if (zoom > 5 && zoom <= 8) {
-        adminLevels = "4"; // State boundaries for medium zoom levels
+        adminLevels = 2; // Country boundaries for low zoom levels
+    } else if (zoom <= 10) {
+        adminLevels = 4; // State boundaries for medium zoom levels
     } else {
-        adminLevels = "4"; // For higher zoom levels, still use state boundaries to reduce data
+        adminLevels = 6; // For higher zoom levels, still use state boundaries to reduce data
     }
 
     if(currentAdminLevel === adminLevels) return false
-
+    currentAdminLevel = adminLevels
     // Overpass query to fetch administrative boundaries within the bounding box
-    return `[out:json];
+    return `[out:json][timeout:180];
             (
               relation["boundary"="administrative"]["admin_level"~"${adminLevels}"](${bbox});
-              way["boundary"="administrative"]["admin_level"~"${adminLevels}"](${bbox});
             );
-            (._;>;);
-            out body;`;
+            out body;
+            >;
+            out skel qt;`;
 }
 
 // Fetch administrative boundaries from Overpass API
@@ -65,6 +65,7 @@ function fetchBoundaries() {
     var zoom = map.getZoom();
     var overpassQuery = buildOverpassQuery(bounds, zoom);
     if(!overpassQuery) return
+    console.log(overpassQuery)
     var overpassURL = "https://overpass-api.de/api/interpreter?data=" + encodeURIComponent(overpassQuery);
 
     fetch(overpassURL)
