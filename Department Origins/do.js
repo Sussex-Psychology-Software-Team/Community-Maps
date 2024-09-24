@@ -14,6 +14,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 const popup = L.popup();
 
 function onMapClick(e) {
+    //getLocationDetails(e.latlng)
     popup
         .setLatLng(e.latlng)
         .setContent("You clicked the map at " + e.latlng.toString())
@@ -29,91 +30,138 @@ function saveClick(latlng){
 }
 map.on('click', onMapClick);
 
-// Boundaries
-var boundariesLayer = null; // Placeholder for the dynamically fetched boundaries layer
-let currentAdminLevel = 1
-
-// Function to build Overpass API query based on map bounds and zoom level
-function buildOverpassQuery(bounds, zoom) {
-    var bbox = `${bounds.getSouth()},${bounds.getWest()},${bounds.getNorth()},${bounds.getEast()}`;
-
-    // Admin levels: 2 = country, 4 = state/province
-    let adminLevels;
-    if (zoom <= 5) {
-        adminLevels = 2; // Country boundaries for low zoom levels
-    } else if (zoom <= 10) {
-        adminLevels = 4; // State boundaries for medium zoom levels
-    } else {
-        adminLevels = 6; // For higher zoom levels, still use state boundaries to reduce data
-    }
-
-    if(currentAdminLevel === adminLevels) return false
-    currentAdminLevel = adminLevels
-    // Overpass query to fetch administrative boundaries within the bounding box
-    return `[out:json][timeout:180];
-            (
-              relation["boundary"="administrative"]["admin_level"~"${adminLevels}"](${bbox});
-            );
-            out body;
-            >;
-            out skel qt;`;
+async function getLocationDetails(latLng){
+    url = 'api.geonames.org/countrySubdivisionJSON?lat='+latLng.lat+'&lng='+latLng.lng+'&maxRows=10&radius=40&username=demo'
+    // Make the fetch request with the provided options
+    fetch(url)
+    .then(response => {
+        // Check if the request was successful
+        if (!response.ok) {
+        throw new Error('Network response was not ok');
+        }
+        // Parse the response as JSON
+        return response.json();
+    })
+    .then(data => {
+        // Handle the JSON data
+        console.log(data);
+    })
+    .catch(error => {
+        // Handle any errors that occurred during the fetch
+        console.error('Fetch error:', error);
+    });
 }
 
-// Fetch administrative boundaries from Overpass API
-function fetchBoundaries() {
-    var bounds = map.getBounds();
-    var zoom = map.getZoom();
-    var overpassQuery = buildOverpassQuery(bounds, zoom);
-    if(!overpassQuery) return
-    console.log(overpassQuery)
-    var overpassURL = "https://overpass-api.de/api/interpreter?data=" + encodeURIComponent(overpassQuery);
 
-    fetch(overpassURL)
-        .then(response => response.json())
-        .then(data => {
-            if (boundariesLayer) {
-                map.removeLayer(boundariesLayer); // Remove the previous boundaries layer
-            }
 
-            var geojson = osmtogeojson(data);
-            boundariesLayer = L.geoJson(geojson, {
-                style: function (feature) {
-                    return {
-                        color: 'blue',
-                        weight: 2,
-                        fillOpacity: 0.2
-                    };
-                },
-                onEachFeature: function (feature, layer) {
-                    // Add mouseover and mouseout events for highlighting
-                    layer.on({
-                        mouseover: function (e) {
-                            var layer = e.target;
-                            layer.setStyle({
-                                weight: 3,
-                                color: 'red',
-                                fillOpacity: 0.4
-                            });
-                            layer.bringToFront();
-                        },
-                        mouseout: function (e) {
-                            boundariesLayer.resetStyle(e.target); // Reset style on mouseout
-                        },
-                        click: function (e) {
-                            map.fitBounds(e.target.getBounds()); // Zoom to the clicked feature
-                        }
-                    });
-                }
-            });
-
-            boundariesLayer.addTo(map);
-        })
-        .catch(error => console.error("Error fetching boundaries:", error));
+// BOUNDARIES **************************************************
+// Add interactivity to country layer
+function onEachBoundary(feature, layer) {
+    layer.on({
+        mouseover: highlightFeature,
+        mouseout: resetHighlight,
+        click: zoomToFeature
+    });
 }
 
-// Fetch boundaries when the map is zoomed or moved
-map.on('zoomend', fetchBoundaries);
-map.on('moveend', fetchBoundaries);
+// Event handlers for highlighting countries
+function highlightFeature(e) {
+    const layer = e.target
+    console.log(layer.feature.properties)
+    layer.setStyle({
+        weight: 2,
+        color: 'blue',
+        fillOpacity: 0.2
+    })
+    .bringToFront()
+    .bindPopup(layer.feature.properties.ADMIN);
+}
 
-// Fetch boundaries when the map first loads
-fetchBoundaries();
+function resetHighlight(e) {
+    console.log(e)
+    countryLayer.resetStyle(e.target);
+}
+
+// Zoom to a feature on click
+function zoomToFeature(e) {
+    console.log(e.target.feature.properties)
+    map.fitBounds(e.target.getBounds());
+    // Example usage: Fetch boundaries for "Germany" with a maximum admin level of 8
+    fetchAdminBoundaries(e.target.feature.properties.ISO_A2);
+}
+
+function fetchAdminBoundaries(iso) {
+    // Construct the Overpass API query
+    const query = `
+        [out:json];
+        relation["ISO3166-2"~"^${iso}"]
+        ["admin_level"="6"]
+        ["type"="boundary"]
+        ["boundary"="administrative"];
+        out body;
+        >;
+        out skel qt;
+    `;
+
+    // Encode the query for the URL
+    const url = "https://overpass-api.de/api/interpreter?data=" + encodeURIComponent(query);
+
+    // Fetch the JSON data from the Overpass API
+    fetch(url)
+    .then(response => response.json())
+    .then(data => {
+        console.log("Administrative boundaries data:", data);
+        // Convert the Overpass JSON to GeoJSON using osmtogeojson
+        const geojson = osmtogeojson(data);
+        // Plot the GeoJSON on the Leaflet map
+        const newLayer = L.geoJson(geojson, layerParams)
+        newLayer.addTo(map);
+        // Fit the map bounds to the GeoJSON layer
+        map.fitBounds(L.geoJson(geojson).getBounds());
+    })
+    .catch(error => {
+        console.error("Error fetching administrative boundaries:", error);
+    });
+}
+
+// Load GeoJSON data for countries
+const layerParams = {
+    style: {
+        fillColor: 'blue',
+        weight: 1,
+        opacity: 1,
+        color: 'black',
+        fillOpacity: 0
+    },
+    onEachFeature: onEachBoundary
+}
+
+const countryLayer = L.geoJson.ajax("https://raw.githubusercontent.com/datasets/geo-countries/master/data/countries.geojson", layerParams);
+
+// Add country layer by default (initial zoom level)
+countryLayer.addTo(map);
+
+// // Switch layers based on zoom level
+// map.on('zoomend', function () {
+//     var currentZoom = map.getZoom();
+
+//     // Set a threshold zoom level (e.g., 6)
+//     if (currentZoom >= 6) {
+//         // Remove country layer and add city layer
+//         if (map.hasLayer(countryLayer)) {
+//             map.removeLayer(countryLayer);
+//         }
+//         if (!map.hasLayer(cityLayer)) {
+//             map.addLayer(cityLayer);
+//         }
+//     } else {
+//         // Remove city layer and add country layer
+//         if (map.hasLayer(cityLayer)) {
+//             map.removeLayer(cityLayer);
+//         }
+//         if (!map.hasLayer(countryLayer)) {
+//             map.addLayer(countryLayer);
+//         }
+//     }
+// });
+
