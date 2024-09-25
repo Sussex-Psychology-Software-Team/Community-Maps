@@ -7,7 +7,7 @@ from geopy.extra.rate_limiter import RateLimiter
 geolocator = Nominatim(user_agent="institution_mapper")
 sussex_coords = geolocator.geocode("University of Sussex, Brighton, UK")
 map_center = [sussex_coords.latitude, sussex_coords.longitude]
-map_institutions = folium.Map(zoom_start=2) #location=map_center, 
+map_institutions = folium.Map(location=map_center, zoom_start=4) # 
 
 # Add markers for other universities
 file_path = 'Co-authorship/geolocated_data.csv'  # Replace with the actual file path
@@ -23,10 +23,10 @@ for _, row in df.iterrows():
         folium.PolyLine(
             locations=[[row['Latitude'], row['Longitude']], [sussex_coords.latitude, sussex_coords.longitude]],
             tooltip=institution,
-            color='grey',
+            color='lightgrey',
             weight=1,
-            opacity=0.2,
-            dash_array='10'
+            opacity=0.5
+            # dash_array='10'
         ).add_to(map_institutions)
 
 # Add markers on top
@@ -38,9 +38,9 @@ for _, row in df.iterrows():
         # Create circle marker with size proportional to 'Outputs'
         folium.CircleMarker(
             location=[row['Latitude'], row['Longitude']],
-            radius=outputs/2,  # Adjust scaling factor as needed
+            radius=outputs/4,  # Adjust scaling factor as needed
             popup=f"<strong>{institution}</strong><br><br><i>{outputs} outputs</i>",
-            color='blue',
+            color='#013d4b',
             fill=True,
             fill_opacity=0.7
         ).add_to(map_institutions)
