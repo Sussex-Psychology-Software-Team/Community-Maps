@@ -10,32 +10,22 @@
     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
     crossorigin=""></script>
     <style>
-        .SkinInner{
-            padding-top: 0 !important;
-        }
-
-        body {
-            margin: 0;
-        }
-
         #map {
+            position: fixed;
+            top: 0;
+            left: 0;
             height: 100vh; 
             width: 100vw;
         }
 
-        #mapsNextButton{
-            position: fixed; /* Needed for Qualtrics */
-            z-index: 999;
-            top: 90%;
-            left: 90%;
-            font-size: 30px;
-            padding: 5px;
-            color: white;
-            background-color: green;
+        #NextButton{
+            position: fixed;
+            top: 85%;
+            left: 85%;
+            transform: translate(-50%, -50%);
         }
     </style>
 </head>
 <body>
     <div id="map"></div>
-    <input type="button" id="mapsNextButton" value=" → "/>
 </body>
