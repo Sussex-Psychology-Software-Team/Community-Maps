@@ -1,0 +1,818 @@
+Institutions,Country_by_institution,Outputs,Latitude,Longitude
+Vrije Universiteit Amsterdam,Netherlands,41,52.3340539,4.865188201518784
+CNRS,France,34,48.8475401,2.2640299470873737
+University of Amsterdam,Netherlands,33,52.36813335,4.889804155733945
+University of Groningen,Netherlands,27,53.21944155,6.562986329174857
+KU Leuven,Belgium,26,50.80571285,3.2915374489139757
+Instituto de Salud Carlos III,Spain,25,40.458841500000005,-3.8649465199302897
+Centro de Investigación Biomédica en Red,Spain,25,,
+Johnson & Johnson,United States,23,51.270953,7.229879174262734
+Amsterdam UMC,Netherlands,23,52.2924635,4.956576595884709
+University of Massachusetts,United States,22,42.3582529,-71.0966272383055
+Maynooth University,Ireland,21,53.3821766,-6.5987338
+Trinity College Dublin,Ireland,20,53.34366705,-6.254436557768817
+Dalhousie University,Canada,20,44.63620105,-63.591996064796504
+University of Barcelona,Spain,19,41.38685955,2.163478411827376
+Institut national de la santé et de la recherche médicale,France,19,43.63609935,3.845741931632569
+Pontificia Universidad Católica de Chile,Chile,19,-33.44177485,-70.64032584797746
+University Institute of Lisbon,Portugal,19,38.7478481,-9.153431699999999
+Tilburg University,Netherlands,18,51.56306085,5.043598467727852
+University of Toronto,Canada,17,43.663461999999996,-79.39775966248058
+Kyoto University,Japan,16,35.0229299,135.777149
+University of Limerick,Ireland,16,52.67325805,-8.569809653548548
+Utrecht University,Netherlands,16,52.0832758,5.1478185
+University of Hamburg,Germany,15,53.5641091,9.994978875267606
+Radboud University Nijmegen,Netherlands,15,51.82151725,5.863403442541042
+Clark University,United States,15,42.251468149999994,-71.82295086144981
+Northwestern University,United States,15,42.0557157,-87.67529454739416
+University of Queensland,Australia,14,-27.498142350000002,153.01115355575917
+Lingnan University,Hong Kong,14,22.412358750000003,113.98128517593481
+H. Lundbeck A/S,Denmark,14,55.65694335,12.516631143581215
+King Saud University,Saudi Arabia,14,24.7248229,46.62339110195674
+Iowa State University,United States,14,42.0279608,-93.64473746093857
+Stanford University,United States,14,37.431313849999995,-122.16936535498309
+Ruhr University Bochum,Germany,13,51.444157649999994,7.260965412383296
+McGill University,Canada,13,45.50688675,-73.57908551043636
+Universidade de Brasília,Brazil,13,-15.84502125,-48.099459012222276
+University of Melbourne,Australia,12,-37.8038271,144.9597056360034
+Ivane Javakhishvili Tbilisi State University,Georgia,12,41.7170696,44.72137575446858
+Czech Academy of Sciences,Czech Republic,12,50.08177175,14.41414746429405
+Polish Academy of Sciences,Poland,12,52.2377936,21.0181978
+West University of Timisoara,Romania,12,45.74732925,21.23126099621941
+University of Belgrade,Serbia,12,44.8179654,20.450776496755196
+Carleton University,Canada,12,45.3858581,-75.69500411688679
+Queen's University Kingston,Canada,12,44.22634885,-76.49575545601735
+New York University,United States,12,40.729205300000004,-73.99501481290962
+SWPS University of Social Sciences and Humanities,Poland,12,52.2483057,21.065389805881438
+Université Paris Cité,France,12,48.82959855,2.381684300259244
+Nanyang Technological University,Singapore,11,1.3484104000000001,103.68293320728537
+University of Oslo,Norway,11,59.9414173,10.722768340750914
+University of Montreal,Canada,11,45.5092094,-73.58075877093961
+York University Toronto,Canada,11,43.7743325,-79.50027054016516
+Harvard University,United States,11,42.365743249999994,-71.12221394207614
+The University of Chicago,United States,11,41.784977,-87.5905237123017
+Université Fédérale Toulouse Midi-Pyrénées,France,11,43.5949741,1.4515345
+Renmin University of China,China,10,39.9695397,116.30712905005895
+Johannes Kepler University Linz,Austria,10,48.33608985,14.320579914064746
+University of Vienna,Austria,10,48.2131469,16.35997
+Bielefeld University,Germany,10,52.0376885,8.493223283579532
+National and Kapodistrian University of Athens,Greece,10,37.9807412,23.7337635
+Eotvos Lorand University,Hungary,10,47.4934799,19.061899330588723
+University of Padua,Italy,10,40.7272282,-74.001322619863
+Leiden University,Netherlands,10,52.1686355,4.459702754883444
+Columbia University,United States,10,40.80775585,-73.96161411567529
+Yale University,United States,10,41.25713055,-72.98966960152231
+Higher School of Economics,Russian Federation,10,58.01074455,56.281946091146445
+Istanbul Bilgi University,Turkey,10,41.039789850000005,28.974294142976046
+Macquarie University,Australia,9,-33.774197,151.1127326987788
+Hokkaido University,Japan,9,43.07900775,141.33772952994423
+Victoria University of Wellington,New Zealand,9,-36.8482415,174.76775596988733
+Augsburg University,Germany,9,44.9662364,-93.24110466136236
+Sorbonne Université,France,9,48.837988499999994,2.3611216301460356
+Duke University,United States,9,36.00015569999999,-78.94422972195878
+Pennsylvania State University,United States,9,40.8025835,-77.85593833184565
+University of Georgia,United States,9,33.9404278,-83.37304904988295
+Canadian Institute for Advanced Research,Canada,9,,
+International Islamic University Malaysia,Malaysia,8,3.25308125,101.73568422975772
+The University of Auckland,New Zealand,8,-36.8660955,174.77373309361866
+University of Geneva,Switzerland,8,41.799306099999995,-80.96166676305658
+Ulm University,Germany,8,48.841707150000005,2.3447923126871286
+University of Copenhagen,Denmark,8,55.6801502,12.57232700140625
+University of Granada,Spain,8,37.1827211,-3.6056278
+University of Campania Luigi Vanvitelli,Italy,8,40.9685925,14.208581891623606
+Catholic University of the Sacred Heart,Italy,8,45.4621325,9.177178500000002
+Roma Tre University,Italy,8,41.85128085,12.474972435492532
+Karolinska Institutet,Sweden,8,59.3515453,18.0310658
+Slovak Academy of Sciences,Slovakia,8,48.3198619,18.369856291310015
+American University of Beirut,Lebanon,8,33.9000264,35.48238377752095
+TOBB University of Economics and Technology,Turkey,8,39.9200738,32.80174350779299
+University of British Columbia,Canada,8,49.25783145,-123.24624198622213
+Massachusetts Institute of Technology,United States,8,42.3582529,-71.0966272383055
+University of California at Santa Barbara,United States,8,34.4139629,-119.848947
+University of Pennsylvania,United States,8,39.949340449999994,-75.18964936995958
+Universidade de São Paulo,Brazil,8,-21.999246,-47.93070696008918
+TED University,Turkey,8,39.9237514,32.86102817975936
+Nagoya University of Commerce and Business,Japan,8,35.1547844,137.0934089
+LAB University of Applied Sciences,Finland,8,61.0061098,25.6557888
+La Trobe University,Australia,7,-37.717222,145.0442807
+University of New South Wales,Australia,7,-33.91759945,151.23126487290787
+Hong Kong Polytechnic University,Hong Kong,7,22.302644,114.1776025
+University of Zurich,Switzerland,7,47.49684345,8.72980716809498
+Charles University,Czech Republic,7,60.4518905,22.2791628
+Palacký University Olomouc,Czech Republic,7,49.5954268,17.2600153
+Aarhus University,Denmark,7,56.1670905,10.202617693592895
+Complutense University,Spain,7,40.4314742,-3.7900439484094033
+University of Málaga,Spain,7,36.72312445,-4.449654826804728
+Université Clermont Auvergne,France,7,45.7595573,3.113909599713632
+Universite Jean Monnet Saint-Etienne,France,7,45.42305665,4.425721200764729
+Hungarian Academy of Sciences,Hungary,7,47.50126265,19.046133737708708
+Gabriele d'Annunzio University,Italy,7,42.367942299999996,14.148912484423334
+University of Rome La Sapienza,Italy,7,41.9037626,12.5144384
+University of Trento,Italy,7,46.0661497,11.11662318758863
+University of Milan - Bicocca,Italy,7,45.5182898,9.2137614
+Maastricht University,Netherlands,7,50.84720265,5.685941396293034
+Sabanci University,Turkey,7,40.8927159,29.378633226358197
+Clemson University,United States,7,34.66869155,-82.83743475607795
+"University of Michigan, Ann Arbor",United States,7,42.2942142,-83.71003893509601
+University of Rochester,United States,7,43.129864,-77.62878399245412
+Pontificia Universidad Católica del Perú,Peru,7,-12.0691658,-77.07993483360875
+Institute of Psychology of the Polish Academy of Sciences,Poland,7,,
+University of Ghana,Ghana,6,5.64659785,-0.18800395110458934
+Australian National University,Australia,6,-35.2813935,149.11714511802117
+Deakin University,Australia,6,-37.847513649999996,145.11494735286496
+University of Western Australia,Australia,6,-31.95040445,115.79790157357621
+Australian Catholic University,Australia,6,-37.80725425,144.97784654604976
+Nagoya University,Japan,6,35.1583416,136.9219146
+Sogang University,South Korea,6,37.5521044,126.9409838739227
+Thammasat University,Thailand,6,14.0793792,100.5885381
+National Chengchi University,Taiwan,6,24.9802063,121.57491055365293
+University of Lausanne,Switzerland,6,46.5225695,6.580949860268587
+University of Marburg,Germany,6,50.8101824,8.7739563
+Ludwig Maximilian University of Munich,Germany,6,48.15047575,11.579835648337658
+University of Münster,Germany,6,51.96734215,7.599243326272159
+Institut universitaire de France,France,6,44.3543973,2.5638090629711474
+University of Iceland,Iceland,6,64.14018315,-21.95396327335172
+University of Cagliari,Italy,6,39.2176552,9.1149673
+University of Messina,Italy,6,38.1891325,15.5529787
+IRCCS Fondazione Santa Lucia - Roma,Italy,6,41.8413174,12.5145365
+Vilnius University,Lithuania,6,54.682847,25.28784063939981
+Babes-Bolyai University,Romania,6,46.7677836,23.591976552323946
+Russian Academy of Sciences,Russian Federation,6,55.71080885000001,37.57896991984255
+Stockholm University,Sweden,6,59.366141,18.059592960559392
+Ben-Gurion University of the Negev,Israel,6,31.2631254,34.802238544584185
+Arizona State University,United States,6,33.4213174,-111.93316305413154
+National Institutes of Health,United States,6,39.00001425,-77.10400394523563
+University of California at Davis,United States,6,38.5382322,-121.7617125
+"University of Maryland, Baltimore",United States,6,39.289447800000005,-76.62630185349286
+University of North Carolina at Chapel Hill,United States,6,35.90503535,-79.04775326525107
+University of South Florida,United States,6,28.0599999,-82.41383619025117
+Universidade Presbiteriana Mackenzie,Brazil,6,-23.547193800000002,-46.652463102705724
+Universidad de los Andes Colombia,Colombia,6,4.6014026,-74.06490497198021
+Tallinn University,Estonia,6,59.4393125,24.772347058941484
+CAS - Institute of Psychology,China,6,39.9106327,116.3356321
+Chinese Academy of Sciences,China,6,39.90933665,116.32971461228999
+Reichman University,Israel,6,32.17625285,34.83709109840297
+Universidad Iberoamericana (UIA),Mexico,6,19.3694072,-99.2640157
+Universidad Diego Portales,Chile,6,-33.45093185,-70.65976821175127
+University of the Valley of Guatemala,Guatemala,6,15.783471,-90.23075899999999
+Universidad del Desarrollo,Chile,6,-36.8204644,-73.03708092271319
+Nord University,Norway,6,67.289197,14.560430849235708
+Omsk State University,Russian Federation,6,55.0257294,73.29121096581898
+Universidad ICESI,Colombia,6,3.3408806,-76.52917861791352
+Instituto D'or de Pesquisa e Ensino,Brazil,6,,
+Zurich University of Applied Sciences,Switzerland,6,47.49684345,8.72980716809498
+Indiana University Northwest,United States,6,41.55705605,-87.33775066715813
+Baze University,Nigeria,6,9.00632445,7.404669252837307
+Research Centre for Natural Sciences,Hungary,6,,
+Universidad Nacional de La Matanza,Argentina,6,-34.6671767,-58.566400855321675
+The University of Haripur,Pakistan,6,33.978055,72.91278419999999
+Curtin University,Australia,5,-32.0057281,115.8929073394684
+Peking University,China,5,39.99171495,116.30393496863539
+The University of Hong Kong,Hong Kong,5,22.28269745,114.13845499995571
+Chulalongkorn University,Thailand,5,13.7431095,100.53288411765634
+Université libre de Bruxelles,Belgium,5,50.81347185,4.381235729203142
+University of Cyprus,Cyprus,5,35.14340315,33.41405137768187
+Osnabrück University,Germany,5,52.270887200000004,8.045711932169596
+University of Bonn,Germany,5,50.7338124,7.1022465
+Universidad Autónoma de Madrid,Spain,5,40.5453765,-3.6949577655963672
+University of Zaragoza,Spain,5,41.6420639,-0.9015065
+National Distance Education University,Spain,5,40.0327348,-3.60177
+Autonomous University of Barcelona,Spain,5,41.5021421,2.1038536
+Commissariat à l’énergie atomique et aux énergies alternatives,France,5,,
+Universite Claude Bernard Lyon 1,France,5,45.78166445,4.868154514412188
+University of Rijeka,Croatia,5,45.3256265,14.4541092
+University of Bologna,Italy,5,44.4969129,11.352376
+IRCCS Centro San Giovanni di Dio Fatebenefratelli - Brescia,Italy,5,45.5234342,10.2017266
+University of Tromsø – The Arctic University of Norway,Norway,5,69.6819069,18.972490634079904
+University of Novi Sad,Serbia,5,45.246226,19.851175531732203
+University of Luxembourg,Luxembourg,5,49.5036259,5.948715453669688
+Yerevan State University,Armenia,5,40.18156225,44.526434013185906
+Saint Francis Xavier University,Canada,5,45.6177357,-61.99539410000001
+Simon Fraser University,Canada,5,49.276709600000004,-122.91780296438841
+University of Waterloo,Canada,5,43.4701994,-80.54524293779451
+Purdue University,United States,5,40.430028,-86.92642114650494
+University of California at Los Angeles,United States,5,34.0699182,-118.4438495
+University of California at San Diego,United States,5,32.8794637,-117.235911
+University of Illinois at Urbana-Champaign,United States,5,40.090629199999995,-88.17641799034426
+University of Texas at Austin,United States,5,30.2851494,-97.73393515146053
+Consejo Nacional de Investigaciones Científicas y Técnicas,Argentina,5,-42.7862795,-65.00766336368035
+Universidad de Buenos Aires,Argentina,5,-34.508711500000004,-58.68837906432547
+NYU Abu Dhabi,United Arab Emirates,5,40.73206935,-73.9976431125895
+International Islamic University Islamabad,Pakistan,5,33.66361245,73.02663611145223
+Universidad San Sebastián,Chile,5,-36.8130912,-73.0434022053635
+Université de Lyon,France,5,45.7297811,4.826581921660953
+Massachusetts General Hospital,United States,5,42.36286045,-71.06875296664998
+University of Nigeria,Nigeria,4,6.86410245,7.409739732182379
+North West University,South Africa,4,-26.687461550000002,27.091640615583188
+Fudan University,China,4,31.30116485,121.49808756382322
+Southwest University,China,4,29.823237149999997,106.41958835875167
+Sungkyunkwan University,South Korea,4,37.3003187,126.9697911
+Yonsei University,South Korea,4,37.280096549999996,127.90150303233045
+University of Otago,New Zealand,4,-45.8649793,170.51461487350844
+National University of Singapore,Singapore,4,1.2962018,103.77689765953073
+Ghent University,Belgium,4,51.00784845,3.710883068491984
+Université catholique de Louvain,Belgium,4,50.821212700000004,4.34955336942806
+Vrije Universiteit Brussel,Belgium,4,50.886677199999994,4.305749431622016
+Free University of Berlin,Germany,4,52.4543245,13.2934768
+Friedrich Schiller University Jena,Germany,4,50.92943289999999,11.5896642
+Charité – Universitätsmedizin Berlin,Germany,4,52.5299885,13.34866394036122
+Technische Universität Dresden,Germany,4,51.028276500000004,13.735982754935176
+University of Cologne,Germany,4,50.928044549999996,6.928130514523661
+University of Göttingen,Germany,4,51.54149460000001,9.9375952
+Leipzig University,Germany,4,51.33845385,12.37863856850984
+University of Mannheim,Germany,4,49.483885,8.470873599132947
+University of Tartu,Estonia,4,58.38101399999999,26.719559831081384
+Universidad de Salamanca,Spain,4,20.7994696,-102.7646453
+École normale supérieure,France,4,48.841707150000005,2.3447923126871286
+Université de Poitiers,France,4,46.585955,0.3460338179005129
+Dublin City University,Ireland,4,53.386489499999996,-6.25926073106762
+University College Dublin,Ireland,4,53.3068763,-6.224625093340977
+University of Bergamo,Italy,4,45.6941966,9.6707462
+University of Turin,Italy,4,45.0691151,7.6898971
+Erasmus University Rotterdam,Netherlands,4,51.9176312,4.525962326490774
+University of Twente,Netherlands,4,52.2425267,6.8567575
+University of Warsaw,Poland,4,52.2394966,21.015693129786936
+Catholic University of Portugal,Portugal,4,38.749139799999995,-9.165983093884673
+Alexandru Ioan Cuza University of Iaşi,Romania,4,47.1742512,27.57113688794361
+Kazan Volga Region Federal University,Russian Federation,4,55.7906985,49.1216444
+Lund University,Sweden,4,55.7126504,13.210758659399971
+Uppsala University,Sweden,4,59.8559511,17.663355
+Tel Aviv University,Israel,4,32.112382249999996,34.80501795095419
+Abant Izzet Baysal University,Turkey,4,40.7392747,31.60263422318974
+Canakkale Onsekiz Mart University,Turkey,4,40.1120066,26.421464811380968
+Middle East Technical University,Turkey,4,39.875496749999996,32.78553505584672
+University of Baghdad,Iraq,4,33.347177,44.408292
+Toronto Metropolitan University,Canada,4,43.658534200000005,-79.37846742853738
+University of Windsor,Canada,4,42.305201350000004,-83.06649144027972
+Michigan State University,United States,4,42.70237935,-84.48038686520441
+Oklahoma State University,United States,4,36.128476750000004,-97.08398055028107
+University of Arizona,United States,4,32.23563985,-110.9517440773026
+University of California at Berkeley,United States,4,37.87425655,-122.23870915696222
+University of Colorado Colorado Springs,United States,4,38.8924932,-104.7996978
+"University of Nevada, Reno",United States,4,39.5442688,-119.81631051527071
+Universidad de la Frontera,Chile,4,-38.748060499999994,-72.61829051629903
+Aix-Marseille Université,France,4,43.29282045,5.358275269602977
+Max Planck Institute for Human Cognitive and Brain Sciences,Germany,4,51.3349446,12.3889266
+Brawijaya University,Indonesia,4,-7.9520178999999995,112.6138814098461
+Universidad Adolfo Ibáñez,Chile,4,-33.4213941,-70.59156150604554
+"Rutgers - The State University of New Jersey, Newark",United States,4,40.7406438,-74.173126
+Leuphana University of Lüneburg,Germany,4,53.2287819,10.40147524887356
+Universidad Católica Boliviana,Bolivia,4,-16.522801,-68.11182474838812
+Université PSL,France,4,48.854654,2.3378386313969113
+Fundación Universitaria Konrad Lorenz,Colombia,4,4.648512699999999,-74.06155190000001
+Károli Gáspár University of the Reformed Church Budapest,Hungary,4,47.4889541,19.061843
+Menoufia University,Egypt,3,30.61080195,31.109719477727435
+Université Cheikh Anta Diop de Dakar,Senegal,3,14.68724935,-17.46444644727304
+Monash University,Australia,3,-37.783974549999996,144.95867432609305
+University of Newcastle,Australia,3,-32.890687650000004,151.7022241596607
+University of Chinese Academy of Sciences,China,3,39.907697049999996,116.24405770367915
+Hubei University,China,3,30.579616,114.3235106
+Chinese University of Hong Kong,Hong Kong,3,22.4140914,114.2100208
+Kwansei Gakuin University,Japan,3,34.768813,135.34691007748773
+The University of Tokyo,Japan,3,35.9019845,139.9362233261796
+University Utara Malaysia,Malaysia,3,6.4641470000000005,100.50304918471942
+Singapore Management University,Singapore,3,1.29616795,103.85004365998248
+Sofia University St. Kliment Ohridski,Bulgaria,3,42.6935092,23.335316870417927
+University of Basel,Switzerland,3,47.5612651,7.5752961
+University of Bern,Switzerland,3,46.95097255,7.438684130809055
+Saarland University,Germany,3,49.25428530000001,7.04150707562534
+Heidelberg University ,Germany,3,49.41937455,8.670220825559886
+University of Tübingen,Germany,3,48.53405945,9.071244429234808
+University of Würzburg,Germany,3,49.7881814,9.93526
+Constructor University,Germany,3,53.167723300000006,8.651165678669964
+University of Córdoba,Spain,3,8.79042355,-75.86177184901655
+Université Paris Nanterre,France,3,48.9042269,2.2139517871306014
+École des hautes études en sciences sociales,France,3,43.30088,5.3676145
+Aristotle University of Thessaloniki,Greece,3,40.6296694,22.959160262503495
+University of Crete,Greece,3,35.3072756,25.08249485321918
+University of Galway,Ireland,3,53.2936337,-9.075059919448318
+Vita-Salute San Raffaele University,Italy,3,45.506811,9.26517441766921
+University of Verona,Italy,3,45.4365011,11.0032198
+University of Bergen,Norway,3,60.36887575,5.351111541486731
+Jagiellonian University in Kraków,Poland,3,50.0620926,19.9333211
+Nicolaus Copernicus University in Toruń,Poland,3,53.0195187,18.5711994
+University of Gdańsk,Poland,3,54.396404950000004,18.57400997579134
+University of Nis,Serbia,3,43.322873099999995,21.89319828775414
+Kyiv National Taras Shevchenko University,Ukraine,3,50.3842474,30.47428730013875
+Bar-Ilan University,Israel,3,32.069329249999996,34.84334338615306
+Adnan Menderes University,Turkey,3,37.856680100000005,27.854733168336814
+Dokuz Eylul University,Turkey,3,38.37106845,27.207774805861
+Hacettepe University,Turkey,3,39.86744815,32.735384518047205
+Eastern Mediterranean University,Cyprus,3,35.14523305,33.9072905828952
+McMaster University,Canada,3,43.263939699999995,-79.917825231868
+University of Calgary,Canada,3,51.07505395,-114.13876168856827
+QEII Health Sciences Centre,Canada,3,44.645789,-63.5863854
+Universidad Nacional Autónoma de México,Mexico,3,19.32160295,-99.18493018260631
+City University of New York,United States,3,40.80775585,-73.96161411567529
+Icahn School of Medicine at Mount Sinai,United States,3,40.789793,-73.95325355721154
+Temple University,United States,3,39.981188,-75.15628280757346
+University of Colorado Boulder,United States,3,40.01779535,-105.24724210308266
+"University of Maryland, College Park",United States,3,38.9784587,-76.9282678
+University of Minnesota Twin Cities,United States,3,44.9863392,-93.17945580218503
+University of Pittsburgh,United States,3,40.44415295,-79.96246095144505
+University of Rhode Island,United States,3,41.487296900000004,-71.5344649840152
+University of Virginia,United States,3,38.0410576,-78.50550841214823
+University of Washington,United States,3,47.65566375,-122.30270741043226
+Vanderbilt University,United States,3,36.14380105,-86.80281889095295
+Universidad de Santiago de Chile,Chile,3,-33.4489016,-70.68162370843888
+Universitas Airlangga,Indonesia,3,-7.26625925,112.7839482168426
+Lawrence Technological University,United States,3,42.4752647,-83.25063727571097
+Max Planck Institute for Human Development,Germany,3,52.4686894,13.303758929473972
+University of Trnava,Slovakia,3,48.144180399999996,17.10908767943083
+ORYGEN Youth Health,Australia,3,-37.78084955,144.94767754103174
+The British University in Egypt,Egypt,3,30.11897325,31.610099991355767
+Université Toulouse Jean Jaurès,France,3,43.578375050000005,1.401000308569734
+Pontificia Universidad Católica Argentina Santa María de los Buenos Aires - UCA,Argentina,3,-34.6140298,-58.365739
+Reykjavík University,Iceland,3,64.12473745,-21.927537172271208
+South-West University Neofit Rilski,Bulgaria,3,42.0184151,23.0775679
+Vietnam National University Ho Chi Minh City,Viet Nam,3,10.8230989,106.6296638
+Ordu University,Turkey,3,40.974059,37.970594708017174
+Leibniz Institute for the Social Sciences,Germany,3,,
+Sunway University,Malaysia,3,3.0671722499999996,101.60385821082119
+University of Hail,Saudi Arabia,3,27.67586395,41.706453775961634
+IRCCS Ospedale San Raffaele,Italy,3,45.5068815,9.264759
+Coe College,United States,3,41.99059715,-91.65696644701376
+Nelson Mandela Africa Institution of Science and Technology,Tanzania,3,,
+Alex Ekwueme Federal University Ndufu-Alike Ikwo,Nigeria,3,6.1317758,8.141298299999999
+Macedonian Academy of Sciences and Arts,North Macedonia,3,41.9963445,21.4415623
+"Child Mind Institute, Inc.",United States,3,,
+Universidad Manuelta Beltrán,Colombia,3,4.642531099999999,-74.05431829999999
+Universidad de O'Higgins,Chile,3,-34.61140135,-70.99012614338827
+Ankara Science University,Turkey,3,39.9239877,32.8458385
+University of Johannesburg,South Africa,2,-26.18493745,27.99979246435022
+University of Pretoria,South Africa,2,-25.75433545,28.230857806174797
+University of South Africa,South Africa,2,-23.9149179,29.45342697525025
+Flinders University,Australia,2,-35.02487525,138.57341808329355
+Griffith University Queensland,Australia,2,-27.9634372,153.384872
+James Cook University Queensland,Australia,2,-19.328961800000002,146.75664498994468
+University of Sydney,Australia,2,-33.88890725,151.18941110261173
+University of Wollongong,Australia,2,-34.40505545,150.87834654727789
+Shanghai Jiao Tong University,China,2,31.200891149999997,121.4283949471511
+Zhejiang University,China,2,30.521595,120.7195312
+Anhui Agricultural University,China,2,31.8648767,117.25071878356896
+University of Indonesia,Indonesia,2,-6.8611533,107.59167698608596
+Indian Institute of Technology Delhi,India,2,28.54499705,77.18915056744521
+Hiroshima University,Japan,2,34.4019766,132.7123195
+Kochi University of Technology,Japan,2,33.6208089,133.71937596625372
+Osaka University,Japan,2,34.51119925,135.63144797553792
+University of Malaya,Malaysia,2,3.1257602,101.65587961386524
+University of Waikato,New Zealand,2,-37.7858739,175.31676647297562
+University of the Philippines,Philippines,2,14.6553219,121.0554319
+De La Salle University-Manila,Philippines,2,14.56494395,120.99309922392345
+University of Peshawar,Pakistan,2,34.0105547,71.4833157155482
+"Agency for Science, Technology and Research, Singapore",Singapore,2,1.298727,103.7873828
+National Chung Cheng University,Taiwan,2,23.5629482,120.47512177283392
+University of Graz,Austria,2,47.0582807,15.46024619962457
+Belgian National Fund for Scientific Research,Belgium,2,50.503887,4.469936
+University of St. Gallen,Switzerland,2,47.4300025,9.372218409002015
+University of Fribourg,Switzerland,2,46.793058,7.157106
+Masaryk University,Czech Republic,2,49.20999665,16.59924869244152
+Heinrich Heine University Düsseldorf,Germany,2,51.19077325,6.793516713552313
+Humboldt University of Berlin,Germany,2,52.5183402,13.392920232320172
+University of Konstanz,Germany,2,47.6899569,9.18826237566324
+Witten/Herdecke University,Germany,2,51.45218815,7.357114827030026
+University of Wuppertal,Germany,2,51.2445542,7.150124399999999
+Zentralinstitut fur Seelische Gesundheit - Central Institute of Mental Health,Germany,2,49.4922713,8.4656738
+Physikalisch-Technische Bundesanstalt,Germany,2,52.29641355,10.465579540656728
+CSIC,Spain,2,40.4407145,-3.687401374378301
+University of Vigo,Spain,2,42.169739500000006,-8.683312518738537
+Public University of Navarre,Spain,2,42.800636,-1.636479
+University of Valencia,Spain,2,39.476861400000004,-0.3867240697651492
+Universidad Rovira i Virgili,Spain,2,41.12268315,1.2501586736136532
+Hospital Regional Universitario Carlos Haya,Spain,2,36.72312445,-4.449654826804728
+Ramon Llull University,Spain,2,41.411798250000004,2.1335406915967576
+University of Helsinki,Finland,2,60.22672205,25.017670049469757
+Université de Caen,France,2,49.1887295,-0.3634172
+Nantes Université,France,2,47.282239649999994,-1.515120331564979
+Université Côte d'Azur,France,2,43.716066999999995,7.264897360869565
+Université de Picardie Jules Verne,France,2,49.87419545,2.268363015144649
+Université de Reims Champagne-Ardenne,France,2,48.29925645,4.079467242646295
+Université de Rennes,France,2,48.1193848,-1.7014869659553993
+Université de Strasbourg,France,2,48.582645,7.7638753
+Université Rennes 2,France,2,48.1193848,-1.7014869659553993
+University of Thessaly,Greece,2,39.35763825,22.950746406657494
+University of Zagreb,Croatia,2,42.64252845,18.102663794322645
+University College Cork,Ireland,2,51.8947384,-8.4903073
+University of Camerino,Italy,2,43.14647585,13.0668871899954
+University of Salento,Italy,2,40.34956,18.1672671
+University of Milan,Italy,2,45.479858500000006,9.22824383971776
+University of Modena and Reggio Emilia,Italy,2,44.6451145,10.928124
+University of Siena,Italy,2,40.7654225,-111.85279650863075
+University of Latvia,Latvia,2,56.950744,24.116059419868535
+Wageningen University & Research,Netherlands,2,51.98544495,5.663212001137484
+AGH University of Krakow,Poland,2,50.065703299999996,19.918958667058632
+University of Lisbon,Portugal,2,38.7525379,-9.156845594636383
+Romanian Academy,Romania,2,44.446435449999996,26.090087832478453
+RAS - Pavlov Institute of Physiology,Russian Federation,2,,
+Linköping University,Sweden,2,58.3977911,15.57545441574208
+Isfahan University of Medical Sciences,Iran,2,34.0111285,51.40583672629889
+Islamic Azad University,Iran,2,34.836724700000005,48.561978554493265
+Manisa Celal Bayar University,Turkey,2,38.678873100000004,27.30865102437125
+Cankaya University,Turkey,2,39.82019345,32.56269277681798
+Concordia University,Canada,2,45.4952479,-73.57858216019235
+University of Regina,Canada,2,50.4152275,-104.58899996239825
+Western University,Canada,2,11.57164495,104.88919265514961
+Boston College,United States,2,42.3354481,-71.16826648999114
+Cornell University,United States,2,42.4529076,-76.48008423030923
+DePaul University,United States,2,41.92401995,-87.65472731476649
+Fordham University,United States,2,40.861734350000006,-73.88603169298054
+George Washington University,United States,2,38.899893750000004,-77.04744828062584
+Indiana University Bloomington,United States,2,39.1802358,-86.50935262731483
+Johns Hopkins University,United States,2,39.33020225,-76.62185357858337
+Medical University of South Carolina,United States,2,32.784296499999996,-79.94714193501349
+Oregon Health and Science University,United States,2,43.8041334,-120.5542012
+"Rutgers - The State University of New Jersey, New Brunswick",United States,2,40.5008405,-74.44741739999999
+San Diego State University,United States,2,32.7761529,-117.07330366921886
+Syracuse University,United States,2,43.017112850000004,-76.11855360009726
+Texas A&M University,United States,2,30.6108618,-96.35206061388457
+University of California at Irvine,United States,2,33.6423814,-117.8416747
+University of Houston,United States,2,29.7207902,-95.34406271491369
+University of Illinois at Chicago,United States,2,41.868922299999994,-87.64858476010119
+University of Kansas,United States,2,38.95350515,-95.26309220025998
+University of Kentucky,United States,2,38.026629099999994,-84.50472223981663
+University of Miami,United States,2,25.71727245,-80.2787068732586
+University of Oregon,United States,2,44.04441965,-123.07176029673084
+University of Vermont,United States,2,44.4737365,-73.19414679705882
+Washington State University Pullman,United States,2,46.7337716,-117.14980348311619
+Washington University St. Louis,United States,2,38.64724015,-90.30840174694748
+Pontifícia Universidade Católica do Rio de Janeiro,Brazil,2,-22.979624549999997,-43.23314772473006
+Universidade Estadual de Campinas,Brazil,2,-22.82265605,-47.06279590310605
+Universidade Federal da Paraíba,Brazil,2,-6.7505593,-35.64545021761968
+Universidade Federal de Santa Catarina,Brazil,2,-27.60341335,-48.5224424733554
+Universidad de Chile,Chile,2,-33.443867,-70.6506654
+Universidad Católica del Maule,Chile,2,-35.4354476,-71.61956337026399
+Max Planck Institute of Experimental Medicine,Germany,2,51.5511322,9.9375047
+Max Planck Institute for Evolutionary Anthropology,Germany,2,51.3210522,12.394925046086962
+Max Planck Institute for Research On Collective Goods,Germany,2,50.7170241,7.126409619999995
+Universidad Peruana de Ciencias Aplicadas,Peru,2,-12.104031549999998,-76.96297465875287
+Universitas Udayana,Indonesia,2,-8.7947286,115.17390369964819
+University of Nottingham Malaysia Campus,Malaysia,2,2.94448475,101.8760282930444
+University of Presov in Presov,Slovakia,2,48.99129019999999,21.2329572
+"University of SS Cyril and Methodius, Trnava",Slovakia,2,48.3833631,17.5890554
+"University of Economics, Prague",Czech Republic,2,50.08321565,14.441625747826857
+Karabuk University,Turkey,2,41.2072548,32.65837956472413
+Usmanu Danfodiyo University,Nigeria,2,13.1265734,5.208389016427937
+California State University East Bay,United States,2,37.65552355,-122.05587721694027
+Université de Bordeaux,France,2,44.808260000000004,-0.5947906391285662
+ESADE Business School,Spain,2,41.39398165,2.114785861328576
+Inland Norway University of Applied Sciences,Norway,2,61.425217700000005,11.079908831873325
+Østfold University College,Norway,2,59.129329850000005,11.354217716764005
+University of Sargodha,Pakistan,2,32.07283725,72.68419284719388
+MEF University,Turkey,2,41.1085585,29.0085457735755
+Indian Institute of Management Indore,India,2,22.6272741,75.79053366470743
+Polytechnique Montreal,Canada,2,45.5045875,-73.612996
+Shiga University,Japan,2,47.6691483,-122.31268825000001
+Touro College,United States,2,40.7505364,-73.995675
+New York University Shanghai,China,2,40.7313519,-74.0004653
+O.P. Jindal Global University,India,2,28.9264157,77.0565769
+Universidad Autonoma de la Ciudad de Mexico,Mexico,2,19.311886,-99.05749999845752
+IRCCS Fondazione Ca'Granda – Ospedale Maggiore Policlinico - Milano,Italy,2,45.45884170000001,9.1949702
+Université Paris-Saclay,France,2,48.7118148,2.1734464
+Lusófona University,Portugal,2,38.758145400000004,-9.151821957727282
+Ho Chi Minh City University of Education,Viet Nam,2,10.85279065,106.77255839168646
+American University of Kuwait,Kuwait,2,29.344251999999997,48.08339258839205
+Institut Universitari d'Investigació en Atenció Primària Jordi Gol,Spain,2,,
+Panteion University of Social and Political Sciences,Greece,2,37.9595266,23.7193918
+Berlin Institute of Health,Germany,2,52.520611,13.4018697
+ELKH Secreteriat,Hungary,2,,
+Universidade Católica de Petrópolis,Brazil,2,-22.50702865,-43.16760477309079
+Normandie Université,France,2,49.2086256,-0.3585547
+Environmental Defense Fund,United States,2,,
+Bloomfield College,United States,2,40.79519845,-74.19382455603869
+Federation of American Scientists,United States,2,,
+Kyiv School of Economics,Ukraine,2,50.45581145,30.487725923382015
+Egerton University,Kenya,1,-0.36856855,35.932295500583024
+University of KwaZulu-Natal,South Africa,1,-29.86644265,30.981309910977757
+Stellenbosch University,South Africa,1,-33.9326212,18.865055115199628
+University of The Free State,South Africa,1,-29.1106677,26.1864764
+Sokoine University of Agriculture,Tanzania,1,-6.8530603,37.65695000879735
+Edith Cowan University,Australia,1,-31.919281599999998,115.86912150103211
+Murdoch University,Australia,1,-32.06741575,115.83460861146293
+Federation University Australia,Australia,1,-27.4648813,153.0282355
+University of New England,Australia,1,43.4591747,-70.38622144492447
+Western Sydney University,Australia,1,-34.065433,150.7932545
+Royal North Shore Hospital,Australia,1,-33.82143225,151.19112008421575
+University of the Sunshine Coast,Australia,1,-26.7184793,153.0651333458133
+Beijing Normal University,China,1,39.959732,116.35973697755406
+Central China Normal University,China,1,30.520412200000003,114.35628644756716
+East China Normal University,China,1,31.2284923,121.40211388976886
+Jinan University,China,1,22.2518247,113.52912551084435
+Liaoning Normal University,China,1,38.9152032,121.5591728
+Liaoning University,China,1,41.83142775,123.4007625878155
+Nanjing Normal University,China,1,32.055056199999996,118.76210047243124
+Shenzhen University,China,1,22.53590225,113.93147487492186
+Southwest Jiaotong University,China,1,30.6968576,104.0473356
+City University of Hong Kong,Hong Kong,1,22.3400204,114.16971664362887
+Indian Institute of Technology Kanpur,India,1,26.513188,80.23648433095772
+L.V. Prasad Eye Institute India,India,1,17.4247535,78.42757829403297
+Fukuoka University,Japan,1,33.54844335,130.36451368460496
+Fukushima Medical University,Japan,1,37.6904406,140.46900190006522
+Juntendo University,Japan,1,35.702247299999996,139.76029363758
+Kobe University,Japan,1,34.72663915,135.23716913881546
+Kyushu University,Japan,1,33.67077675,130.44449860821308
+RIKEN,Japan,1,47.2760208,7.8491956
+Tohoku University,Japan,1,38.25419205,140.84070241993675
+Waseda University,Japan,1,35.709179750000004,139.71972128895072
+Chukyo University,Japan,1,35.141876550000006,136.96377200418323
+Hitotsubashi University,Japan,1,35.693795300000005,139.44392836941262
+National Center for Global Health and Medicine,Japan,1,35.7016562,139.716339
+Japan Women's University,Japan,1,35.71676885,139.7205791666264
+Takeda Pharmaceutical Company Limited,Japan,1,,
+Chonnam National University,South Korea,1,35.1769099,126.9068927159905
+Ewha Womans University,South Korea,1,37.5643371,126.94689253689391
+Korea University,South Korea,1,36.6108905,127.2934246
+Pusan National University,South Korea,1,35.234349800000004,129.07840680801058
+Seoul National University,South Korea,1,37.46691,126.94771
+University of Canterbury,New Zealand,1,-43.5240894,172.58030038078448
+Chiang Mai University,Thailand,1,18.80092635,98.95215523032442
+National Yang Ming Chiao Tung University,Taiwan,1,22.925322,120.293998
+National Sun Yat-sen University,Taiwan,1,22.62800585,120.26622411994393
+Taipei Medical University,Taiwan,1,25.025266600000002,121.56146488416101
+University of Macau,Macao,1,22.1283648,113.543778397594
+Medical University of Vienna,Austria,1,48.2196447,16.3475329
+University of Innsbruck,Austria,1,47.26331595,11.384473309954492
+University of Salzburg,Austria,1,47.7947829,13.054159709492996
+Hasselt University,Belgium,1,50.925558499999994,5.391082565999431
+Swiss Federal Institute of Technology Lausanne,Switzerland,1,46.5190557,6.5667576
+F. Hoffmann-La Roche AG,Switzerland,1,47.53604505,7.739951640901946
+Justus Liebig University Giessen,Germany,1,50.57630295,8.694097864600673
+RWTH Aachen University,Germany,1,50.7791657,6.068920935592383
+Technical University of Berlin,Germany,1,52.5125322,13.3269446
+Technical University of Munich,Germany,1,48.2655696,11.669345610437997
+University of Bayreuth,Germany,1,49.9270796,11.587226615128671
+TU Dortmund University,Germany,1,51.49148435,7.4122738886856805
+Leibniz University Hannover,Germany,1,52.3827497,9.718121247863053
+University of Stuttgart,Germany,1,48.7815366,9.1723652
+University of Bremen,Germany,1,53.107964550000005,8.855664592828369
+Goethe University Frankfurt,Germany,1,50.117466699999994,8.649844440610723
+University of Freiburg,Germany,1,47.9935441,7.845949599999999
+University of Greifswald,Germany,1,54.08943465,13.404874267720633
+University of Kassel,Germany,1,51.3227614,9.5073508
+Johannes Gutenberg University Mainz,Germany,1,49.992039649999995,8.237090346042269
+University of Oldenburg,Germany,1,53.14677275,8.181610787904518
+Leibniz Institute for Neurobiology,Germany,1,52.10184835,11.61099621258592
+FernUniversität in Hagen,Germany,1,51.3771294,7.495154028855863
+University of Southern Denmark,Denmark,1,55.367853249999996,10.42805340701966
+University of Alicante,Spain,1,38.3846639,-0.5139975999999999
+University of La Laguna,Spain,1,33.653585,-117.8443823272959
+University of Leon,Spain,1,47.1601167,27.595824755362784
+University of Santiago de Compostela,Spain,1,42.879405,-8.5454287
+University of Seville,Spain,1,32.7593783,-117.1464173
+Universidad Rey Juan Carlos,Spain,1,40.33611785,-3.8771203152794294
+Pompeu Fabra University,Spain,1,41.4043275,2.1937054
+University of Almeria,Spain,1,36.8295765,-2.4047747
+University of Navarra,Spain,1,,
+Hospital Infantil Universitario Nino Jesus de Madrid,Spain,1,40.41423545,-3.676047797052061
+Hospital Universitari Virgen de la Victoria,Spain,1,,
+Hospital Universitario de la Princesa,Spain,1,40.4340157,-3.6757531094540887
+Aalto University,Finland,1,60.1860789,24.828102074406736
+University of Jyväskylä,Finland,1,62.22902785,25.740036905054723
+Tampere University,Finland,1,61.4949175,23.781501
+University of Turku,Finland,1,60.456073149999995,22.28640967697722
+Muséum national d'histoire naturelle,France,1,48.8430823,2.3571721
+Université d'Angers,France,1,47.480387050000004,-0.6012189553351314
+Université de Bretagne Occidentale,France,1,47.98136985,-4.097525242915112
+Université de Tours,France,1,47.407550799999996,0.7022339017183237
+Institut national des sciences appliquées de Rennes,France,1,48.1220353,-1.6355526442088502
+Université de Bretagne Sud,France,1,47.742003749999995,-3.3844048566298905
+Université Paris 8 Vincennes Saint-Denis,France,1,48.9454164,2.3624194
+University of Pecs,Hungary,1,46.06729275,18.196511866498255
+Bocconi University,Italy,1,45.449883549999996,9.189263625177816
+Istituto Superiore di Sanita,Italy,1,41.90522645,12.520222920176906
+Marche Polytechnic University,Italy,1,43.6173748,13.5139708
+University of Genoa,Italy,1,43.6711967,-79.3907134
+University of Pavia,Italy,1,45.186926549999995,9.156876823159685
+University of Perugia,Italy,1,49.2622036,-123.2449904
+University of Pisa,Italy,1,43.7167235,10.3988593
+University of Rome Tor Vergata,Italy,1,41.8514621,12.6292473
+Lithuanian University of Health Sciences,Lithuania,1,54.8943049,23.916356589385387
+Kaunas University of Technology,Lithuania,1,54.898805249999995,23.91265256983673
+SS Cyril and Methodius University in Skopje,North Macedonia,1,42.0000259,21.4442922
+Eindhoven University of Technology,Netherlands,1,51.4486602,5.4903995655080475
+Centrum voor Wiskunde en Informatica,Netherlands,1,52.3565315,4.9519851
+Netherlands Institute for Neuroscience,Netherlands,1,52.2923942,4.9576715
+Norwegian University of Science and Technology,Norway,1,63.44802385,10.453639414751784
+University of Stavanger,Norway,1,58.9377085,5.6937667
+Norwegian School of Economics,Norway,1,60.42293759999999,5.3024087
+Stavanger University Hospital,Norway,1,58.952329,5.735548671177741
+University of Silesia in Katowice,Poland,1,50.260839250000004,19.029024442109545
+University of Wrocław,Poland,1,51.1082768,17.06567801948395
+University of Porto,Portugal,1,41.14647685,-8.615669070748732
+NOVA University Lisbon,Portugal,1,38.7337401,-9.160384157861287
+University of Minho,Portugal,1,41.5599112,-8.3968123
+Lomonosov Moscow State University,Russian Federation,1,55.701189,37.527634
+Ural Federal University,Russian Federation,1,56.843672,60.650781
+Örebro University,Sweden,1,59.25399205,15.24876794426954
+University of Maribor,Slovenia,1,46.5592325,15.643293707372823
+Comenius University,Slovakia,1,48.149623250000005,17.0708798991884
+American University of Sharjah,United Arab Emirates,1,25.310900099999998,55.49185048977678
+Hebrew University of Jerusalem,Israel,1,31.7918555,35.244723
+University of Haifa,Israel,1,32.7609456,35.020464137606155
+Sultan Qaboos University,Oman,1,23.5908857,58.17185419869686
+Baskent University,Turkey,1,39.88750145,32.654810525820366
+Istanbul University,Turkey,1,41.0132424,28.9637609
+Marmara University,Turkey,1,40.9872142,29.052948944965976
+Yuzuncu Yil University,Turkey,1,38.5735694,43.290179230498566
+Atilim University,Turkey,1,39.814045899999996,32.72595452724267
+Mugla Sıtkı Kocman University,Turkey,1,37.03180275,27.355636423865413
+Acadia University,Canada,1,45.08824955,-64.36658994820328
+Brock University,Canada,1,43.11773545,-79.24985683064051
+Memorial University of Newfoundland,Canada,1,47.5732831,-52.7351911
+Saint Mary's University Halifax,Canada,1,44.63111455,-63.58013395082786
+Université du Québec à Montréal,Canada,1,45.513225250000005,-73.56141109213168
+University of Alberta,Canada,1,53.52682,-113.5244937350756
+Canterbury District Health Board,New Zealand,1,-43.5350552,172.6295664
+University of Costa Rica,Costa Rica,1,9.9356021,-84.0489628
+Universidad Autónoma Metropolitana,Mexico,1,19.36207685,-99.07289764077358
+American University Washington DC,United States,1,38.93804505,-77.08939223651926
+Baylor College of Medicine,United States,1,29.710543899999998,-95.39580790999966
+Boston University,United States,1,42.350421499999996,-71.10322831831216
+California Institute of Technology,United States,1,34.13701375,-118.12528833668254
+Carnegie Mellon University,United States,1,40.444189699999995,-79.94271918393466
+Emory University,United States,1,33.80045465,-84.31723780466274
+Florida Atlantic University,United States,1,26.119403650000002,-80.14169191096471
+Florida State University,United States,1,30.44235995,-84.29747867166262
+George Mason University,United States,1,38.83133325,-77.30798838879116
+Georgetown University,United States,1,38.90893925,-77.07457962060826
+Indiana University-Purdue University Indianapolis,United States,1,39.773929,-86.17626059999999
+Kent State University,United States,1,41.144232450000004,-81.33983207322399
+Lehigh University,United States,1,40.6068028,-75.3782488
+National Oceanic and Atmospheric Administration,United States,1,,
+North Carolina State University,United States,1,35.77184965,-78.67408695452633
+Northeastern University,United States,1,42.33895455,-71.08805803336392
+Northern Arizona University,United States,1,35.1834428,-111.65500037883243
+Ohio State University,United States,1,40.00568015,-83.02866123579578
+Ohio University,United States,1,39.32417815,-82.10156480977798
+Princeton University,United States,1,40.33867515,-74.65836549131683
+Rochester Institute of Technology,United States,1,43.0826701,-77.67293215211362
+Scripps Research Institute,United States,1,32.8984967,-117.2428803
+Seton Hall University,United States,1,40.7433314,-74.246892079833
+Stony Brook University,United States,1,40.9090809,-73.12055180275716
+Texas Tech University,United States,1,33.59375255,-101.89959552302756
+University of Alabama,United States,1,33.21208215,-87.53967345126999
+University of California at Riverside,United States,1,33.9737055,-117.3280644
+University of Colorado Denver,United States,1,39.7460707,-105.001771
+University of Denver,United States,1,39.67831365,-104.96250921815401
+University of Florida,United States,1,29.6328837,-82.34901302237435
+University of Iowa,United States,1,41.631102350000006,-91.54075201642047
+University of Louisville,United States,1,38.21332235,-85.75770751081866
+University of Mississippi,United States,1,34.3646125,-89.53963491020966
+University of Missouri,United States,1,38.93641465,-92.32970301784542
+University of North Carolina at Wilmington,United States,1,34.2249827,-77.86907743744479
+University of North Texas,United States,1,33.2098926,-97.15147624977251
+University of Southern California,United States,1,34.02186895,-118.285857923125
+University of Texas at Dallas,United States,1,32.9875855,-96.74978396047038
+University of Wisconsin-Madison,United States,1,43.080274450000005,-89.43095871991434
+Villanova University,United States,1,40.0367774,-75.34202332002798
+Virginia Commonwealth University,United States,1,37.546124649999996,-77.45406089907547
+Virginia Polytechnic Institute and State University,United States,1,37.22192675,-80.42728184013652
+Wesleyan University,United States,1,41.5559033,-72.65598837890627
+Western Washington University,United States,1,48.734140999999994,-122.4874637564906
+Broad Institute,United States,1,42.36815505,-71.0869811371596
+Claremont Graduate University,United States,1,34.110385199999996,-117.71758836815268
+College of New Jersey,United States,1,40.2686825,-74.7824532
+Eli Lilly,United States,1,39.7735119,-85.7972623
+Alphabet Inc.,United States,1,,
+Merck,United States,1,-34.905470199999996,-58.5986159933218
+Novartis USA,United States,1,40.807522199999994,-74.38871760145008
+Pace University,United States,1,40.7111164,-74.00480443918846
+Pomona College,United States,1,34.0974775,-117.71172754418944
+University Northern Colorado,United States,1,40.402850349999994,-104.70172422096674
+University of Wisconsin-La Crosse,United States,1,43.8156316,-91.2314610845199
+VA Medical Center,United States,1,32.69354375,-96.79285935
+Western Carolina University,United States,1,35.3100146,-83.199040215329
+Widener University,United States,1,39.8606395,-75.35659321419246
+Universidade Federal do Rio Grande,Brazil,1,-5.8377994,-35.20397829326043
+Universidade Federal do Paraná,Brazil,1,-23.59844395,-51.673359178875074
+Universidad de Concepción,Chile,1,-36.83101365,-73.03468092794185
+Universidad Andrés Bello,Chile,1,-33.45092815,-70.6683865846022
+Universidad Javeriana,Colombia,1,4.62869815,-74.06364992186965
+Universidad Peruana Cayetano Heredia,Peru,1,-12.0912436,-77.05186654930796
+Universidad de la República,Uruguay,1,-34.8966381,-56.1402992
+Universidad Central de Venezuela,Venezuela,1,10.4901789,-66.89166332272254
+Universidad de Tarapacá,Chile,1,-18.4901565,-70.2961677979052
+Ulsan National Institute of Science and Technology,South Korea,1,35.57374845,129.18972658449857
+University of Tirana,Albania,1,41.316619599999996,19.821735398290045
+Izmir Ekonomi University,Turkey,1,38.38846135,27.044597775253408
+Italian Institute of Technology,Italy,1,,
+Illinois Wesleyan University,United States,1,40.49242715,-88.99042108232373
+National Louis University,United States,1,41.8092203,-88.0699037
+Kristianstad University,Sweden,1,56.048182249999996,14.145731168939554
+Linnaeus University,Sweden,1,56.8546039,14.8303775
+Max Planck Institute for Dynamics and Self-Organization,Germany,1,51.560557450000005,9.9678057438
+Taibah University,Saudi Arabia,1,24.4855291,39.542807256904446
+Umm Al-Qura University,Saudi Arabia,1,21.324832,39.94488207871171
+Universidad El Bosque,Colombia,1,4.7107247,-74.03136431847742
+University of Deusto,Spain,1,43.3094825,-1.975686363584781
+Pere Virgili Health Research Institute,Spain,1,,
+Health Sciences Research Institute of the Germans Trias i Pujol Foundation,Spain,1,41.4847854,2.23899
+Clalit Health Services,Israel,1,32.1810107,34.8734542
+Ariel University,Israel,1,32.104434049999995,35.20527017882178
+Universidad Nacional San Antonio Abad del Cusco,Peru,1,-14.7828896,-71.40920438321473
+Padjadjaran University,Indonesia,1,-6.9209644,107.77222206555555
+Pontificia Universidad Católica del Ecuador,Ecuador,1,-0.2100491,-78.49169901425844
+Institute for Basic Science,South Korea,1,36.376859499999995,127.38498512362227
+Kadir Has University,Turkey,1,41.0253903,28.9581685
+L.N. Gumilyov Eurasian National University,Kazakhstan,1,51.160112600000005,71.46459850472561
+Mekelle University,Ethiopia,1,13.484283600000001,39.45544932645444
+Bahar Dar University,Ethiopia,1,11.5871163,37.395987
+University of Cape Coast Ghana,Ghana,1,5.1182533,-1.2885294978484785
+Pontifícia Universidade Católica de São Paulo,Brazil,1,-23.537965049999997,-46.671243728549356
+Université de Lorraine,France,1,48.8994042,2.2177085835445625
+Universidad Torcuato Di Tella,Argentina,1,-34.5480059,-58.44694390000001
+"Universidad Mayor de San Andrés, Bolivia",Bolivia,1,-16.5048959,-68.1300381
+Université Paul Sabatier Toulouse III,France,1,43.5642189,1.4665724064187464
+Munich University of Applied Sciences,Germany,1,48.154140999999996,11.556248381577515
+South Ural State University,Russian Federation,1,55.159598,61.3691501
+Birzeit University,Palestine,1,31.96004945,35.18241219332449
+Nencki Institute of Experimental Biology of the Polish Academy of Sciences,Poland,1,,
+Fraunhofer Institute for Algorithms and Scientific Computing,Germany,1,50.7492469,7.2027425
+Bina Nusantara University,Indonesia,1,-6.193888749999999,106.78805589274194
+Tyumen State University,Russian Federation,1,57.15940459999999,65.5314344
+University of Akureyri,Iceland,1,65.685463,-18.12232
+Davidson College,United States,1,35.5032193,-80.83393027613258
+Calvin College,United States,1,-24.6662306,30.309564393921306
+PepsiCo,United States,1,-25.55853175,-49.30859020852675
+"Amazon.com, Inc.",United States,1,,
+United States Department of Health and Human Services,United States,1,38.8867787,-77.0166429
+Generalitat de Catalunya,Spain,1,41.3828401,2.1767417
+Mid-Western Regional Hospital Limerick,Ireland,1,52.634210949999996,-8.6531552318383
+Center for Research and Technology - Hellas,Greece,1,40.557815399999996,23.02200487652607
+Royal Netherlands Academy of Arts and Sciences,Netherlands,1,,
+Furman University,United States,1,34.92577435,-82.4385258125221
+Comillas Pontifical University,Spain,1,40.4299678,-3.7115706
+Izmir Katip Celebi University,Turkey,1,38.5124922,27.031280777663262
+Bartin University,Turkey,1,41.6003972,32.3460611686173
+Hasan Kalyoncu University,Turkey,1,37.005847599999996,37.43777689555526
+Arla Foods,Denmark,1,62.39226095,17.273056232221933
+Perdana University,Malaysia,1,3.1336709999999997,101.49435064121701
+Neuroscience Research Australia,Australia,1,-33.920518650000005,151.23816093401246
+Uskudar University,Turkey,1,41.0217343,29.0401521
+Kenya Marine and Fisheries Research Institute,Kenya,1,-4.0552733,39.6825428
+Bielefeld University of Applied Sciences,Germany,1,52.044461600000005,8.492716193047066
+École normale supérieure de Rennes,France,1,48.045745499999995,-1.7460711624999998
+Jining Medical College,China,1,35.4145899,116.58724
+Shippensburg University,United States,1,40.06141305,-77.51948180057373
+SGH Warsaw School Of Economics,Poland,1,52.209142549999996,21.00948486904928
+Universidad Cooperativa de Colombia,Colombia,1,4.629697,-74.0688241
+Kostroma State Technological University,Russian Federation,1,57.7677078,40.9262609
+University of Erfurt,Germany,1,50.9909272,11.009547426126073
+‎Universidad Camilo José Cela,Spain,1,40.47409505,-3.9397925266804847
+Mondelez,United States,1,25.8985869,-100.29095979167433
+Islamic University of Gaza,Palestine,1,31.513730350000003,34.43982707426764
+IRCCS Fondazione Stella Maris - Calambrone (Pisa),Italy,1,43.6081372,10.292819438194915
+TBS Business School,France,1,43.609771499999994,1.4318310048076874
+New England College of Optometry,United States,1,42.3518544,-71.0868076
+Canadian University Dubai,United Arab Emirates,1,25.2085739,55.2703292
+University of Hildesheim,Germany,1,52.1338812,9.9762439
+University of Vechta,Germany,1,52.7198937,8.294878739418374
+Salamanca Institute for Biomedical Research,Spain,1,40.9701039,-5.663539699999999
+Kampala International University,Uganda,1,0.2941955,32.6051148
+Tanzania Fisheries Research Institute,Tanzania,1,-6.6663903,39.2133031
+Pelita Harapan University,Indonesia,1,-7.3449307,112.7286504
+University of Nebraska-Lincoln,United States,1,40.8305567,-96.6697373
+Russian Academy of Education,Russian Federation,1,,
+Varna University of Management,Bulgaria,1,43.2121185,27.909339543161135
+Max Planck Institute for the Science of Human History,Germany,1,50.9178607,11.5785959
+Max Planck Institute for Psycholinguistics,Netherlands,1,51.8180444,5.8570196
+CSIC-JA-USE - Institute of Biomedicine of Seville,Spain,1,,
+University Southern Indiana,United States,1,37.9584686,-87.67420318933398
+"St. Mary's University, San Antonio",United States,1,29.45223455,-98.56460747256097
+Emerson College,United States,1,51.09990155,0.051608027279563304
+Ashland University,United States,1,40.861543049999995,-82.32179849687705
+St. Augustine University of Tanzania,Tanzania,1,-2.5987937,32.902713544464774
+National Kaohsiung University of Science and Technology,Taiwan,1,22.75424855,120.32909502881029
+Vall d'Hebron Research Institute,Spain,1,41.42891505,2.1423647628447666
+Lygature,Netherlands,1,52.0879541,5.106838499999999
+University of Prishtina “Hasan Prishtina”,Serbia,1,42.65758075,21.16272056356051
+IMDEA Food Institute,Spain,1,40.540017,-3.6928244
+University of Priština (North Mitrovica),Serbia,1,42.8918547,20.8592433
+Ziauddin University,Pakistan,1,24.934015,67.0533746
+Vestfold Hospital Trust,Norway,1,59.27233289999999,10.4179078
+Libera Università Maria SS. Assunta,Italy,1,41.903211,12.4627837
+European Hospital,Italy,1,41.8532753,12.435810031672318
+Otemon Gakuin University,Japan,1,34.8477403,135.5590899
+University of Economics Ho Chi Minh City,Viet Nam,1,10.783014099999999,106.6948927124691
+University of Alaska Southeast,United States,1,58.39233645,-134.64781229447976
+Montreal Institute for Learning Algorithms,Canada,1,45.5307147,-73.6135931
+Laureate Institute for Brain Research,United States,1,36.06569580000001,-95.91880839999999
+"International University of Business, Agriculture and Technology",Bangladesh,1,23.8882699,90.3906595
+İbn Haldun University,Turkey,1,41.13821815,28.798735936363958
+Ural State Law University,Russian Federation,1,56.8500294,60.6569633
+Harrisburg University of Science and Technology,United States,1,40.261938900000004,-76.88034674874413
+KAZGUU University,Kazakhstan,1,51.148927,71.3797877
+International Institute for Management Development,Switzerland,1,46.51021859999999,6.6207417
+Alzheimer Europe,Luxembourg,1,,
+University of Wisconsin - Superior,United States,1,46.717808899999994,-92.08842199623356
+International Psychoanalytic University Berlin,Germany,1,52.5235779,13.3425475
+University of Applied Sciences Mittelhessen,Germany,1,50.5869272,8.683301
+Soroka Medical Center,Israel,1,31.260299,34.79805
+Milken Family Foundation,United States,1,,
+New England Complex Systems Institute,United States,1,42.36816779999999,-71.0975289
+College of DuPage,United States,1,41.7491881,-88.17376006390603
+Regional Government of Andalusia,Spain,1,37.5442706,-4.7277528
+Avila University,United States,1,38.913158499999994,-94.59148623732148
+HELP University,Malaysia,1,3.1778799,101.5487763
+National Agricultural Research Organisation Uganda,Uganda,1,0.0585178,32.4779422
+Boston Children's Hospital,United States,1,42.3373219,-71.1057039092664
+Brigham and Women’s Hospital,United States,1,42.3356871,-71.10603595371349
