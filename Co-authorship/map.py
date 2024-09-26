@@ -1,51 +1,59 @@
-# Required libraries
+import pandas as pd
 import folium
 from geopy.geocoders import Nominatim
+from geopy.extra.rate_limiter import RateLimiter
 
-# List of university names
-universities = [
-    "Harvard University, USA",
-    "University of Oxford, UK",
-    "Stanford University, USA",
-    "Massachusetts Institute of Technology, USA",
-    "University of Cambridge, UK",
-    "California Institute of Technology, USA",
-    "University of Chicago, USA",
-    "Princeton University, USA",
-    "Columbia University, USA",
-    "University of Toronto, Canada"
-]
+# Create a folium map centered on University of Sussex, Brighton, UK
+geolocator = Nominatim(user_agent="institution_mapper")
+sussex_coords = geolocator.geocode("University of Sussex, Brighton, UK")
+map_center = [sussex_coords.latitude, sussex_coords.longitude]
+map_institutions = folium.Map(location=map_center, zoom_start=4) # 
 
-# Initialize the geocoder
-geolocator = Nominatim(user_agent="university_mapper")
+# Add markers for other universities
+file_path = 'Co-authorship/geolocated_data.csv'  # Replace with the actual file path
+df = pd.read_csv(file_path)
 
-# Function to get coordinates for a list of places
-def get_coordinates(places):
-    coordinates = []
-    for place in places:
-        location = geolocator.geocode(place)
-        if location:
-            coordinates.append((location.latitude, location.longitude, place))
-    return coordinates
+# Add polylines first
+for _, row in df.iterrows():
+    if pd.notnull(row['Latitude']) and pd.notnull(row['Longitude']):
+        institution = row['Institutions']
+        outputs = row['Outputs']
+        
+        # Add line from the institution to University of Sussex
+        folium.PolyLine(
+            locations=[[row['Latitude'], row['Longitude']], [sussex_coords.latitude, sussex_coords.longitude]],
+            tooltip=institution,
+            color='lightgrey',
+            weight=1,
+            opacity=0.5
+            # dash_array='10'
+        ).add_to(map_institutions)
 
-# Get coordinates for the universities
-university_coordinates = get_coordinates(universities)
+# Add markers on top
+for _, row in df.iterrows():
+    if pd.notnull(row['Latitude']) and pd.notnull(row['Longitude']):
+        institution = row['Institutions']
+        outputs = row['Outputs']
+        
+        # Create circle marker with size proportional to 'Outputs'
+        folium.CircleMarker(
+            location=[row['Latitude'], row['Longitude']],
+            radius=outputs/4,  # Adjust scaling factor as needed
+            popup=f"<strong>{institution}</strong><br><br><i>{outputs} outputs</i>",
+            color='#013d4b',
+            fill=True,
+            fill_opacity=0.7
+        ).add_to(map_institutions)
 
-# Create a base map centered around the mean latitude and longitude
-mean_lat = sum([lat for lat, lon, name in university_coordinates]) / len(university_coordinates)
-mean_lon = sum([lon for lat, lon, name in university_coordinates]) / len(university_coordinates)
-map_universities = folium.Map(location=[mean_lat, mean_lon], zoom_start=2)
+# Finally, add a marker for University of Sussex
+icon = folium.CustomIcon("Co-authorship/US.png", icon_size=(50, 50))
 
-# Add university markers to the map
-for lat, lon, name in university_coordinates:
-    folium.Marker(
-        location=[lat, lon],
-        popup=name,
-        icon=folium.Icon(color='blue', icon='info-sign')
-    ).add_to(map_universities)
+folium.Marker(
+    location=[sussex_coords.latitude, sussex_coords.longitude],
+    popup="University of Sussex",
+    icon=icon
+).add_to(map_institutions)
 
-# Save map to HTML file
-map_path = "/mnt/data/university_map.html"
-map_universities.save(map_path)
+# Save the map to an HTML file
+map_institutions.save('Co-authorship/institutions_map.html')
 
-map_path
