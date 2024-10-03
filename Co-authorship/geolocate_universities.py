@@ -10,7 +10,10 @@ df = pd.read_excel(file_path)
 # Initialize geocoder
 geolocator = Nominatim(user_agent="institution_mapper")
 # Initialize Google Geocoder (requires an API key)
-google_geolocator = GoogleV3(api_key='AIzaSyCE4To_6BxlTHv__-6rDPqAHKiweZoOjao')
+api_key=''
+if(api_key != ''):
+    google_geolocator = GoogleV3(api_key=api_key)
+
 geocode = RateLimiter(geolocator.geocode, min_delay_seconds=1)
 
 # Manual geocodes dictionary for known universities
@@ -20,14 +23,17 @@ manual_geocodes = {
 }
 
 # Function to get coordinates, skipping geocoding if lat/long already exists
+# Function to get coordinates, skipping geocoding if lat/long already exists
 def get_coordinates(row):
     # Check if there are already valid coordinates
     if pd.notnull(row['Latitude']) and pd.notnull(row['Longitude']):
+        print('Datapoint already found')
         return row['Latitude'], row['Longitude']
     
     # Check for manual geocodes
     place = row['Institutions']
     if place in manual_geocodes:
+        print("Datapoint in manual specified")
         return manual_geocodes[place]
     else: 
         # Geocode the institution using Nominatim or fallback to Google
@@ -36,14 +42,19 @@ def get_coordinates(row):
             if location:
                 return location.latitude, location.longitude
             else:
-                # If Nominatim fails, fall back to Google
-                print(f"Nominatim couldn't find {place}, trying Google Geocoding")
-                location = google_geolocator.geocode(place)
-                if location:
-                    return location.latitude, location.longitude
+                print(f"Nominatim couldn't find {place}")
+                # If Google API key is provided, fallback to Google geocoding
+                if api_key != '':  # Check if the API key is present
+                    print(f"Trying Google Geocoding for {place}")
+                    location = google_geolocator.geocode(place)
+                    if location:
+                        print("Found with Google")
+                        return location.latitude, location.longitude
+                    else:
+                        print('Google couldn\'t find it either')
                 else:
-                    print('Google couldnt find it either')
-                    return None, None
+                    print("Google Geocoding skipped due to missing API key")
+                return None, None
         except Exception as e:
             print(f"Error geocoding {place}: {e}")
             return None, None
