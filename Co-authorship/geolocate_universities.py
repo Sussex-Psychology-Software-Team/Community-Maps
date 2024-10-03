@@ -10,7 +10,7 @@ df = pd.read_excel(file_path)
 # Initialize geocoder
 geolocator = Nominatim(user_agent="institution_mapper")
 # Initialize Google Geocoder (requires an API key)
-api_key=''
+api_key='AIzaSyDIQRxP8rBb-MRF-qJ2kwoNEUSMIuGKFHw'
 if(api_key != ''):
     google_geolocator = GoogleV3(api_key=api_key)
 
