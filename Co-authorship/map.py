@@ -46,7 +46,7 @@ for _, row in df.iterrows():
         ).add_to(map_institutions)
 
 # Finally, add a marker for University of Sussex
-icon = folium.CustomIcon("Co-authorship/US.png", icon_size=(50, 50))
+icon = folium.CustomIcon("Co-authorship/US_border.png", icon_size=(50, 50))
 
 folium.Marker(
     location=[sussex_coords.latitude, sussex_coords.longitude],
