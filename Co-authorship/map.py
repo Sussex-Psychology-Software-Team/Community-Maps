@@ -55,5 +55,5 @@ folium.Marker(
 ).add_to(map_institutions)
 
 # Save the map to an HTML file
-map_institutions.save('Co-authorship/institutions_map.html')
+map_institutions.save('docs/institutions_map.html')
 
