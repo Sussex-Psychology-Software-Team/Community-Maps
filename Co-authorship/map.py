@@ -6,8 +6,8 @@ from geopy.extra.rate_limiter import RateLimiter
 # Create a folium map centered on University of Sussex, Brighton, UK
 geolocator = Nominatim(user_agent="institution_mapper")
 sussex_coords = geolocator.geocode("University of Sussex, Brighton, UK")
-map_center = [sussex_coords.latitude, sussex_coords.longitude]
-map_institutions = folium.Map(location=map_center, zoom_start=4) # 
+map_center = [sussex_coords.latitude/2, sussex_coords.longitude+15]
+map_institutions = folium.Map(location=map_center, zoom_start=3)
 
 # Add markers for other universities
 file_path = 'Co-authorship/international data from darya.xlsx'
