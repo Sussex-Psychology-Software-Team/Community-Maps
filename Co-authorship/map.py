@@ -10,8 +10,8 @@ map_center = [sussex_coords.latitude, sussex_coords.longitude]
 map_institutions = folium.Map(location=map_center, zoom_start=4) # 
 
 # Add markers for other universities
-file_path = 'Co-authorship/geolocated_data.csv'  # Replace with the actual file path
-df = pd.read_csv(file_path)
+file_path = 'Co-authorship/international data from darya.xlsx'
+df = pd.read_excel(file_path)
 
 # Add polylines first
 for _, row in df.iterrows():
