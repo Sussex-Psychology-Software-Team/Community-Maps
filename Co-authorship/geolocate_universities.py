@@ -4,7 +4,7 @@ from geopy.extra.rate_limiter import RateLimiter
 from geopy.geocoders import GoogleV3
 
 # Load the dataset
-file_path = 'Co-authorship/international data from darya.xlsx'  # Replace with the actual file path
+file_path = 'Co-authorship/international data from darya.xlsx'
 df = pd.read_excel(file_path)
 
 # Initialize geocoder
@@ -70,4 +70,5 @@ df['Latitude'], df['Longitude'] = zip(*df.apply(get_coordinates, axis=1))
 
 # Output the resulting DataFrame and save to CSV
 print(df)
+df.to_excel(file_path, index=False)
 df.to_csv('Co-authorship/geolocated_data.csv', index=False)
