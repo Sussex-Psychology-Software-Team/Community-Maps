@@ -1,6 +1,8 @@
 Qualtrics.SurveyEngine.addOnload(function()
 {
-    const userData = {lat:0,lng:0}
+    const nextButton = document.getElementById('NextButton')
+	nextButton.hidden = true
+	const userData = {lat:0,lng:0}
     let marker = null;
     
     // Create map
@@ -25,6 +27,7 @@ Qualtrics.SurveyEngine.addOnload(function()
         userData.lng = latlng.lng
         Qualtrics.SurveyEngine.setEmbeddedData('latitude', userData.lat )
         Qualtrics.SurveyEngine.setEmbeddedData('longitude', userData.lng )
+		nextButton.hidden = false
         console.log(userData)
     }
     map.on('click', onMapClick);
